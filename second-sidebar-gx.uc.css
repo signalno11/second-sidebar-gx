@@ -1,0 +1,11 @@
+/* ==UserScript==
+ * @name Second Sidebar overrides
+ * @include main
+ * ==/UserScript== */
+
+#browser #sb2-main,
+#browser #sb2-box,
+#browser #sb2-geometry-hint {
+    background-color: var(--toolbar-bgcolor, var(--toolbar-background-color)) !important;
+    color: var(--toolbar-color, var(--toolbar-text-color)) !important;
+}
